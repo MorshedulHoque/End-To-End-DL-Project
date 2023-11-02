@@ -4,7 +4,7 @@ notebook
 numpy
 matplotlib
 seaborn
-python-box
+python-box==4.0.3
 pyYAML
 tqdm
 ensure
