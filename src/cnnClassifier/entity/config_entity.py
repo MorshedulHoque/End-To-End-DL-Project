@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
+#For data ingestion
 @dataclass(frozen=True)
 class DataIngestionConfig:
     root_dir: Path
@@ -9,6 +10,7 @@ class DataIngestionConfig:
     local_data_file: Path
     unzip_dir: Path
 
+#For preparation the base model
 @dataclass(frozen=True)
 class PrepareBaseModelConfig:
     root_dir: Path
